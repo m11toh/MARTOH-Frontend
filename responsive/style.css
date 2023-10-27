@@ -46,7 +46,7 @@ header nav ul li a
 .responsive-banner
 {
     width: 100%;
-    height: 300px;
+    height: 500px;
     width: calc(100vh - 100px);
     background-image: url("AF1CUSTOMIZED.jpg");
     background-position: left;
@@ -54,14 +54,19 @@ header nav ul li a
     background-size: cover;
 }
 
+.vertical-center
+{
+    display: table-cell;
+    vertical-align: middle;
+}
 .responsive-banner h1
 {
     color:#111;
     text-shadow: white;
     text-align: center;
-    font-size: 15px;
-    font-family: monospace;
-    align-items: end;
+    font-size: 20px;
+    font-style: italic;
+    align-items: center;
     line-height: 41px;
 }
 
@@ -73,4 +78,12 @@ header nav ul li a
     font-weight: 800;
     font-family: fantasy;
     text-shadow: 2px 2px 8px #111;
+}
+
+.index-links div
+{
+    margin: 16px 16px 0;
+    width: calc(100 - 32px);
+    height: 100px;
+    background-color: #554242;
 }
