@@ -84,6 +84,17 @@ header nav ul li a
 {
     margin: 16px 16px 0;
     width: calc(100 - 32px);
-    height: 100px;
+    height: 200px;
     background-color: #554242;
 }
+
+.index-links div h3
+{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: fantasy;
+    text-shadow: 2px 2px 8px #111;
+}
+
