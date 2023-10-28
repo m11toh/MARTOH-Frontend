@@ -1,0 +1,154 @@
+.body
+{
+background-color: azure;
+}
+
+.h1
+{
+    font-family: monospace;
+    text-decoration: underline;
+    border-top-style: dotted;
+    text-align: center;
+    color: aquamarine;
+}
+
+.container #box-1
+{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-image: url("AF1Black.jpg");
+    background-size: contain;
+    justify-content: baseline;
+    align-items: self-start;
+    position: absolute;
+    right: 700px;
+    transition-duration: 1000ms;
+
+}
+.container #box-2
+{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-image: url("j1lowcut.jpg");
+    background-size: contain;
+    justify-content: baseline;
+    align-items: self-start;
+    position: absolute;
+    right: 350px;
+    transition-duration: 1000ms;
+}
+.container #box-3
+{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-image: url("walkerboots.jpg");
+    background-size: contain;
+    justify-content: baseline;
+    align-items: self-start;
+    transition-duration: 1000ms;
+}
+
+.container #box-4
+{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-image: url("converseallstar.jpg");
+    background-size: contain;
+    justify-content: baseline;
+    align-items: self-start;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    transition-duration: 1000ms;
+}
+.container #box-5
+{
+    background-image: url("ladiesheels.jpg");
+    background-size: contain;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0;
+    align-items: self-end;
+    height: 200px;
+    width: 100%;
+    z-index: 1;
+}
+
+.container #box-1 h5
+{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: fantasy;
+    text-shadow: 2px 2px 8px #111;
+    
+}
+
+.container #box-2 h5
+{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: fantasy;
+    text-shadow: 2px 2px 8px black;
+}
+
+.container #box-3 h5
+{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: fantasy;
+    text-shadow: 2px 2px 8px black;
+}
+.container #box-5 h5
+{
+    color: rgb(43, 29, 29);
+    font-size: 60px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 4px 4px 10px black;
+}
+.container #box-4 h5
+{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 8px black;;
+}
+
+.container #box-1:hover
+{
+    transform: rotate(30deg);
+}
+
+.container #box-2:hover
+{
+    transform: rotate(30deg);
+}
+
+.container #box-3:hover
+{
+    transform: rotate(30deg);
+}
+
+.container #box-4:hover
+{
+    transform: rotate(30deg);
+}
+
+@media all and (max-width: 700px)
+{
+    body
+    {
+        color: white;
+    }
+}
