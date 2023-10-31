@@ -1,0 +1,43 @@
+body
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(151, 151, 98);
+
+}
+
+.Calculator-container
+{
+    text-align: center;
+
+}
+
+.Calculator-grid
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 12px;
+    margin: 20px;
+}
+
+.Calculator-button
+{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    box-shadow:2px 5px 10px black;
+}
+
+.display-screen
+{
+    text-align: left;
+    background-color: beige;
+    padding: 25px;
+    font-size: 30px;
+    border: 1px ghostwhite;
+}
